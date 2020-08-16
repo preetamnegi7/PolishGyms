@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "GYM_ID": 100101,
+        "FACILITY_ID": 50001,
+        "NAME": "ENERGY FITNESS CLUB PALACE",
+        "ADDRESS": "Sułkowicka 2/4, 00-746 Warszawa",
+        "PHONE": "+48664477885",
+        "WEBSITE": "https://www.energyfitness.pl/",
+        "OPENING": {
+          "MONDAY": "6AM–12AM",
+          "TUESDAY": "6AM–12AM",
+          "WEDNESDAY": "6AM–12AM",
+          "THRUSDAY": "6AM-12AM",
+          "FRIDAY": "6AM-12AM",
+          "SATURDAY": "08AM-09PM",
+          "SUNDAY": "08AM-09PM"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.205510967239896, 21.030486915990487]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "GYM_ID": 100102,
+        "FACILITY_ID": 50002,
+        "NAME": "GYM Generation",
+        "ADDRESS": "Dominika Merliniego 2A, 02-511 Warszawa",
+        "PHONE": "+48516365225",
+        "WEBSITE": "http://www.gymgeneration.pl/",
+        "OPENING": {
+          "MONDAY": "04AM–07PM",
+          "TUESDAY": "06AM–07PM",
+          "WEDNESDAY": "10AM–12PM & 04PM-07PM",
+          "THRUSDAY": "10AM–12PM & 04PM-07PM",
+          "FRIDAY": "06AM-12AM",
+          "SATURDAY": "08AM-09PM",
+          "SUNDAY": "09AM-02PM"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.19969081548364, 21.03597499658653]
+      }
+    }
+  ]
+}
